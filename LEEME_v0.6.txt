@@ -1,0 +1,22 @@
+AVISADOR DE TAREAS v0.6 - CREAR EXE INDEPENDIENTE
+
+1. Deja juntos estos cuatro archivos:
+   - AvisadorTareas_v0.6.py
+   - Mantenimiento.png
+   - Mantenimiento.ico
+   - Crear_EXE_Avisador_v0.6.bat
+
+2. Ejecuta Crear_EXE_Avisador_v0.6.bat.
+
+3. El ejecutable final se crea aquí:
+   dist\Avisador de Tareas.exe
+
+4. Puedes copiar SOLAMENTE "Avisador de Tareas.exe" a cualquier carpeta.
+   El EXE lleva Mantenimiento.png y Mantenimiento.ico integrados.
+
+5. Las tareas continúan guardándose en:
+   %USERPROFILE%\avisador_tareas.json
+
+IMPORTANTE:
+Los archivos PNG e ICO solo son necesarios durante la creación del EXE.
+Una vez generado, el EXE de la carpeta dist no depende de ellos.
