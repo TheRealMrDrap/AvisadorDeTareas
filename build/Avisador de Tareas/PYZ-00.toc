@@ -1,5 +1,5 @@
-('C:\\Users\\carlos.druez\\Downloads\\AvisadorTareas_v0.6_CrearEXE\\build\\Avisador '
- 'de Tareas\\PYZ-00.pyz',
+('C:\\Users\\carlos.druez\\Downloads\\AvisadorTareas_v0.7\\build\\Avisador de '
+ 'Tareas v0.7\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\carlos.druez\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
@@ -635,9 +635,6 @@
    'PYMODULE'),
   ('tkinter.constants',
    'C:\\Users\\carlos.druez\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\constants.py',
-   'PYMODULE'),
-  ('tkinter.font',
-   'C:\\Users\\carlos.druez\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\font.py',
    'PYMODULE'),
   ('tkinter.messagebox',
    'C:\\Users\\carlos.druez\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\messagebox.py',

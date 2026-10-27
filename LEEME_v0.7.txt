@@ -1,0 +1,19 @@
+AVISADOR DE TAREAS v0.7
+
+CAMBIOS
+- Interfaz renovada y tipografia Segoe UI.
+- Avisos previos: caducan en 60 segundos y reaparecen hasta 3 veces.
+- Aviso de la hora exacta: no caduca y sustituye cualquier aviso previo de esa tarea.
+- Tareas vencidas sin atender: rojo y negrita.
+- Tareas realizadas: verde.
+- Boton Reprogramar: cambia solamente fecha y hora.
+- Iconos integrados correctamente en el EXE.
+
+CREAR EL EXE
+1. Deja juntos AvisadorTareas_v0.7.py, Mantenimiento.png, Mantenimiento.ico y Crear_EXE_Avisador_v0.7.bat.
+2. Ejecuta Crear_EXE_Avisador_v0.7.bat.
+3. El resultado queda en dist\Avisador de Tareas v0.7.exe.
+4. Puedes copiar solamente el EXE final.
+
+DATOS
+Las tareas siguen en %USERPROFILE%\avisador_tareas.json y son compatibles con las versiones anteriores.
