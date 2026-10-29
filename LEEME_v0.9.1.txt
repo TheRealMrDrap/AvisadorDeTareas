@@ -1,0 +1,13 @@
+AVISADOR DE TAREAS v0.9.1
+
+- Corregido el salto visual de 1-2 px de los botones al pasar/pulsar con el raton.
+- Pestanas Pendientes/Historico mantienen el mismo tamano seleccionado o no.
+- Las tareas ya marcadas como realizadas en versiones antiguas pasan al Historico al migrar.
+- Boton derecho sobre una tarea pendiente: Editar, Reprogramar, Realizada/Pendiente, Prioritaria/Normal, Enviar a Historico y Eliminar.
+- Boton derecho en Historico: Restaurar/Reprogramar o Eliminar.
+- Enviar a Historico fuerza el archivado inmediato sin esperar 24 horas.
+- Las tareas nuevas marcadas Realizada siguen esperando 24 horas antes de pasar automaticamente a Historico.
+- Icono optimizado incluido en el EXE.
+
+Ejecuta Crear_EXE_Avisador_v0.9.1.bat.
+Resultado: dist\Avisador de Tareas v0.9.1.exe

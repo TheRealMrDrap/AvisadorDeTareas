@@ -1,0 +1,17 @@
+AVISADOR DE TAREAS v0.8
+
+Pon estos archivos junto a:
+- AvisadorTareas_v0.7.1.py
+- Mantenimiento.png
+- Mantenimiento.ico
+
+Ejecuta Actualizar_y_Crear_EXE_v0.8.bat.
+
+Correcciones:
+- Editar: ventana centrada de 560 x 470, completa y visible.
+- Reprogramar: ventana centrada de 480 x 280, completa y visible.
+- Se corrige el formato de geometria incompleto de la v0.7.1.
+- Las ventanas ya no se pueden maximizar para evitar el panel blanco.
+- Mantiene la barra de acciones y todas las funciones anteriores.
+
+Resultado: dist\Avisador de Tareas v0.8.exe
