@@ -1,3 +1,13 @@
+AVISADOR DE TAREAS v0.9.2
+
+CORRECCIONES VISUALES
+- Botones redondeados renderizados con antialias a 4x mediante Pillow.
+- El hover y el clic no mueven ni un pixel la geometria del boton o su sombra: solo cambia el color.
+- Eliminado ttk.Notebook para Pendientes/Historico.
+- Pendientes e Historico son ahora pestañas propias de ancho y alto exactamente iguales.
+- La seleccion solo modifica color de fondo/texto, nunca dimensiones, relieve ni padding.
+- Se conservan las funciones de v0.9.1: menus con boton derecho, historico manual/automatico, prioridades, reprogramar, avisos e icono optimizado.
+
 AVISADOR DE TAREAS v0.9.1
 
 - Corregido el salto visual de 1-2 px de los botones al pasar/pulsar con el raton.
