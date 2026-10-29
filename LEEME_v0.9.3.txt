@@ -1,0 +1,11 @@
+AVISADOR DE TAREAS v0.9.3
+
+- Si dos o más tareas tienen exactamente la misma fecha y hora, sus recordatorios aparecen agrupados en una sola ventana.
+- El aviso muestra una lista numerada y un botón Aceptar todas.
+- Los avisos previos agrupados conservan la caducidad de 60 segundos y un máximo de 3 intentos.
+- El aviso agrupado de la hora exacta no caduca.
+- Se evita que varias ventanas modales simultáneas se bloqueen o se superpongan.
+- Mantiene todas las funciones y correcciones visuales de v0.9.2.
+
+Ejecuta Crear_EXE_Avisador_v0.9.3.bat
+Resultado: dist\Avisador de Tareas v0.9.3.exe
