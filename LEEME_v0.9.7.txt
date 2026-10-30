@@ -1,0 +1,18 @@
+AVISADOR DE TAREAS v0.9.7
+
+CAMBIOS
+- Opciones incluye selector de técnico actual y botón Cambiar técnico.
+- Opciones incluye botón Nuevo técnico.
+- Cada tarea conserva su técnico asignado en el JSON.
+- Nuevo botón Reasignar en la barra principal.
+- Opción Reasignar en el menú contextual de las tareas pendientes.
+- Reasignar permite elegir un técnico existente o crear uno nuevo.
+- Las tareas restauradas desde Histórico conservan el técnico.
+- Se mantiene la selección de JSON local o compartido desde Opciones.
+- Se mantiene el guardado atómico mediante archivo temporal.
+
+CREAR EXE
+1. Deja juntos los archivos del paquete.
+2. Ejecuta Crear_EXE_Avisador_v0.9.7.bat.
+3. Resultado: dist\Avisador de Tareas v0.9.7.exe
+4. El EXE final lleva los iconos integrados.
