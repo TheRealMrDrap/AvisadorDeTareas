@@ -1,0 +1,26 @@
+AVISADOR DE TAREAS v0.9.6
+
+NOVEDADES
+- Campo Tecnico al crear cada tarea.
+- Columna Tecnico en Pendientes e Historico.
+- Boton Reasignar en la barra principal.
+- Opcion Reasignar en el menu contextual de las tareas pendientes.
+- Ventana Reasignar para cambiar solamente el tecnico de la tarea.
+- Opciones incluye Cambiar tecnico para seleccionar el tecnico predeterminado del equipo.
+- Opciones permite elegir la ubicacion del JSON de tareas, incluida una ruta compartida.
+- Configuracion local guardada en %LOCALAPPDATA%\AvisadorTareas\config.json.
+- Las tareas antiguas sin tecnico se asignan al tecnico actual configurado.
+- Los avisos agrupados muestran el tecnico asociado a cada tarea.
+- Conserva Historico, prioridades, avisos agrupados y almacenamiento atomico del JSON.
+- Incluye el icono optimizado de 512 px y el ICO multiresolucion dentro del EXE.
+
+CREAR EL EXE
+1. Descomprime todos los archivos en la misma carpeta.
+2. Ejecuta Crear_EXE_Avisador_v0.9.6.bat.
+3. El resultado se crea en dist\Avisador de Tareas v0.9.6.exe.
+4. Puedes copiar solamente el EXE final al equipo de destino.
+
+DATOS
+- Configuracion local: %LOCALAPPDATA%\AvisadorTareas\config.json
+- JSON local predeterminado: %USERPROFILE%\avisador_tareas.json
+- Desde Opciones se puede elegir otro JSON o una ruta compartida.

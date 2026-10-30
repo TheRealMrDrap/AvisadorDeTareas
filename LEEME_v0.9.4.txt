@@ -1,0 +1,20 @@
+AVISADOR DE TAREAS v0.9.4
+
+NOVEDADES
+- Opciones > almacenamiento LOCAL o COMPARTIDO.
+- LOCAL usa %USERPROFILE%\avisador_tareas.json.
+- COMPARTIDO permite seleccionar un JSON en una ruta UNC o unidad de red.
+- Recarga automática cada 3 segundos para detectar cambios realizados desde otros equipos.
+- Escritura atómica mediante archivo temporal y sustitución del JSON.
+- Archivo .lock para impedir dos escrituras simultáneas. Los bloqueos obsoletos se liberan tras 30 segundos.
+- Selector de técnico en la cabecera.
+- Recuerda localmente el último técnico seleccionado y lo preselecciona la próxima vez.
+- Opciones permite mantener la lista de técnicos.
+- Las tareas nuevas guardan el técnico que las creó.
+
+CONFIGURACION LOCAL
+%LOCALAPPDATA%\AvisadorTareas\config.json
+
+CREAR EXE
+Ejecuta Crear_EXE_Avisador_v0.9.4.bat
+Resultado: dist\Avisador de Tareas v0.9.4.exe

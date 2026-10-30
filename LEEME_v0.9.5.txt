@@ -1,0 +1,15 @@
+AVISADOR DE TAREAS v0.9.5
+
+NOVEDADES
+- Opciones con botón Cambiar técnico.
+- Técnico predeterminado local guardado en %LOCALAPPDATA%\AvisadorTareas\config.json.
+- Campo Técnico al crear y listar tareas.
+- Botón Reasignar y opción Reasignar en el menú contextual.
+- Las tareas antiguas reciben inicialmente el técnico actual.
+- Opción para seleccionar el JSON local o compartido mediante una ruta UNC.
+- Escritura atómica mediante archivo temporal para reducir el riesgo de corrupción.
+- Avisos agrupados cuando varias tareas coinciden en fecha y hora.
+
+CREAR EXE
+Ejecuta Crear_EXE_Avisador_v0.9.5.bat
+Resultado: dist\Avisador de Tareas v0.9.5.exe
