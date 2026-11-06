@@ -1,0 +1,14 @@
+AVISADOR DE TAREAS v0.9.9
+
+- Banner horizontal centrado creado a partir del diseño generado de Avisador de Tareas y el logo ADICO.
+- Banner claro y banner oscuro integrados en el EXE.
+- Botón Modo oscuro / Modo claro en la cabecera.
+- La preferencia de apariencia se guarda en config.json.
+- Fondo claro más oscuro y con mayor contraste.
+- Modo oscuro aplicado a fondo, tarjetas, textos, campos y listado.
+- Corregido el icono de bandeja: Abrir es la acción predeterminada. Un clic/doble clic sobre el icono abre y enfoca la ventana sin entrar en el menú.
+- Mantiene técnicos compartidos, eliminación de técnicos, recarga cada minuto y listado sin columna AVISOS.
+
+CREAR EXE
+Ejecuta Crear_EXE_Avisador_v0.9.9.bat
+Resultado: dist\Avisador de Tareas v0.9.9.exe
