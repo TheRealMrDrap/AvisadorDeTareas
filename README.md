@@ -1,28 +1,22 @@
-\# Como ejecutarlo
+# Avisador de Tareas
 
-CREAR EXE
+Una aplicación sencilla para llevar el control de tus tareas y no olvidarte nada. Drap Style. Diseñada para utilizar por varios técnicos
 
-Ejecuta Crear\_EXE\_Avisador\_v0.9.9.3.bat
+# Como ejecutarlo
 
-Resultado: dist\\Avisador de Tareas v0.9.9.3.exe
+1. Ejecuta Crear\_EXE\_Avisador\_v0.9.9.3.bat
+2. Ejecutar el exe. Lo encontrarás en dist\Avisador de Tareas v0.9.9.3.exe
 
 
 
-\# Donde se almacenan las tareas
+# Donde se almacenan las tareas
 
 Las tareas siguen en %USERPROFILE%\\avisador\_tareas.json y son compatibles con las versiones anteriores.
 
 
+# Lista de cambios
 
-
-
-\# Lista de cambios
-
-AVISADOR DE TAREAS v0.9.9.3
-
-
-
-CORRECCIONES
+## v0.9.9.3
 
 \- Los avisos solo aparecen en el equipo cuyo técnico actual coincide con el técnico asignado a la tarea.
 
@@ -40,9 +34,7 @@ CORRECCIONES
 
 \- Se mantiene la recarga del JSON cada minuto, técnicos compartidos, histórico y filtro visual.
 
-
-
-AVISADOR DE TAREAS v0.9.9.2
+## v0.9.9.2
 
 \- Añadido filtro visible «Filtrar por técnico».
 
@@ -59,10 +51,7 @@ AVISADOR DE TAREAS v0.9.9.2
 \- Mantiene calendario, modo oscuro, recarga de red cada minuto y técnicos compartidos.
 
 
-
-AVISADOR DE TAREAS v0.9.9
-
-
+## v0.9.9
 
 \- Banner horizontal centrado creado a partir del diseño generado de Avisador de Tareas y el logo ADICO.
 
@@ -81,27 +70,15 @@ AVISADOR DE TAREAS v0.9.9
 \- Mantiene técnicos compartidos, eliminación de técnicos, recarga cada minuto y listado sin columna AVISOS.
 
 
-
-
-
-AVISADOR DE TAREAS v0.9.8.1 - CORRECCION
-
-
+## v0.9.8.1
 
 Fallo corregido:
-
 AttributeError: '\_tkinter.tkapp' object has no attribute 'shared\_technicians'
 
-
-
 Causa:
-
 La interfaz intentaba crear los desplegables de técnicos antes de inicializar shared\_technicians.
 
-
-
 Corrección:
-
 \- shared\_technicians se inicializa antes de ui().
 
 \- El JSON compartido se carga antes de construir los desplegables.
@@ -110,11 +87,7 @@ Corrección:
 
 \- Mantiene la eliminación de técnicos, el límite de 10 caracteres, la comparación sin mayúsculas/acentos, la recarga cada minuto y la lista sin columna AVISOS.
 
-
-
-AVISADOR DE TAREAS v0.9.8
-
-
+## v0.9.8
 
 \- Técnicos almacenados dentro del JSON compartido.
 
@@ -132,13 +105,7 @@ AVISADOR DE TAREAS v0.9.8
 
 \- El JSON antiguo en formato lista se migra automáticamente al nuevo formato con technicians y tasks.
 
-
-
-AVISADOR DE TAREAS v0.9.7
-
-
-
-CAMBIOS
+## v0.9.7
 
 \- Opciones incluye selector de técnico actual y botón Cambiar técnico.
 
@@ -158,13 +125,7 @@ CAMBIOS
 
 \- Se mantiene el guardado atómico mediante archivo temporal.
 
-
-
-AVISADOR DE TAREAS v0.9.6
-
-
-
-NOVEDADES
+## v0.9.6
 
 \- Campo Tecnico al crear cada tarea.
 
@@ -191,12 +152,7 @@ NOVEDADES
 \- Incluye el icono optimizado de 512 px y el ICO multiresolucion dentro del EXE.
 
 
-
-AVISADOR DE TAREAS v0.9.5
-
-
-
-NOVEDADES
+## v0.9.5
 
 \- Opciones con botón Cambiar técnico.
 
@@ -215,14 +171,7 @@ NOVEDADES
 \- Avisos agrupados cuando varias tareas coinciden en fecha y hora.
 
 
-
-
-
-AVISADOR DE TAREAS v0.9.4
-
-
-
-NOVEDADES
+## v0.9.4
 
 \- Opciones > almacenamiento LOCAL o COMPARTIDO.
 
@@ -245,62 +194,63 @@ NOVEDADES
 \- Las tareas nuevas guardan el técnico que las creó.
 
 
+## v0.9.2
 
+\- Botones redondeados renderizados con antialias a 4x mediante Pillow.
 
+\- El hover y el clic no mueven ni un pixel la geometria del boton o su sombra: solo cambia el color.
 
-AVISADOR DE TAREAS v0.9.2
+\- Eliminado ttk.Notebook para Pendientes/Historico.
 
+\- Pendientes e Historico son ahora pestañas propias de ancho y alto exactamente iguales.
 
+\- La seleccion solo modifica color de fondo/texto, nunca dimensiones, relieve ni padding.
 
-CORRECCIONES VISUALES
+\- Se conservan las funciones de v0.9.1: menus con boton derecho, historico manual/automatico, prioridades, reprogramar, avisos e icono optimizado.
 
-* Botones redondeados renderizados con antialias a 4x mediante Pillow.
-* El hover y el clic no mueven ni un pixel la geometria del boton o su sombra: solo cambia el color.
-* Eliminado ttk.Notebook para Pendientes/Historico.
-* Pendientes e Historico son ahora pestañas propias de ancho y alto exactamente iguales.
-* La seleccion solo modifica color de fondo/texto, nunca dimensiones, relieve ni padding.
-* Se conservan las funciones de v0.9.1: menus con boton derecho, historico manual/automatico, prioridades, reprogramar, avisos e icono optimizado.
+## v0.9.1
 
+\- Corregido el salto visual de 1-2 px de los botones al pasar/pulsar con el raton.
 
+\- Pestanas Pendientes/Historico mantienen el mismo tamano seleccionado o no.
 
-AVISADOR DE TAREAS v0.9.1
+\- Las tareas ya marcadas como realizadas en versiones antiguas pasan al Historico al migrar.
 
-* Corregido el salto visual de 1-2 px de los botones al pasar/pulsar con el raton.
-* Pestanas Pendientes/Historico mantienen el mismo tamano seleccionado o no.
-* Las tareas ya marcadas como realizadas en versiones antiguas pasan al Historico al migrar.
-* Boton derecho sobre una tarea pendiente: Editar, Reprogramar, Realizada/Pendiente, Prioritaria/Normal, Enviar a Historico y Eliminar.
-* Boton derecho en Historico: Restaurar/Reprogramar o Eliminar.
-* Enviar a Historico fuerza el archivado inmediato sin esperar 24 horas.
-* Las tareas nuevas marcadas Realizada siguen esperando 24 horas antes de pasar automaticamente a Historico.
-* Icono optimizado incluido en el EXE.
+\- Boton derecho sobre una tarea pendiente: Editar, Reprogramar, Realizada/Pendiente, Prioritaria/Normal, Enviar a Historico y Eliminar.
 
+\- Boton derecho en Historico: Restaurar/Reprogramar o Eliminar.
 
+\- Enviar a Historico fuerza el archivado inmediato sin esperar 24 horas.
 
-AVISADOR DE TAREAS v0.8
+\- Las tareas nuevas marcadas Realizada siguen esperando 24 horas antes de pasar automaticamente a Historico.
 
+\- Icono optimizado incluido en el EXE.
 
+## v0.8
 
-Correcciones:
+\- Editar: ventana centrada de 560 x 470, completa y visible.
 
-* Editar: ventana centrada de 560 x 470, completa y visible.
-* Reprogramar: ventana centrada de 480 x 280, completa y visible.
-* Se corrige el formato de geometria incompleto de la v0.7.1.
-* Las ventanas ya no se pueden maximizar para evitar el panel blanco.
-* Mantiene la barra de acciones y todas las funciones anteriores.
+\- Reprogramar: ventana centrada de 480 x 280, completa y visible.
 
+\- Se corrige el formato de geometria incompleto de la v0.7.1.
 
+\- Las ventanas ya no se pueden maximizar para evitar el panel blanco.
 
-AVISADOR DE TAREAS v0.7
+\- Mantiene la barra de acciones y todas las funciones anteriores.
 
+## v0.7
 
+\- Interfaz renovada y tipografia Segoe UI.
 
-Cambios:
+\- Avisos previos: caducan en 60 segundos y reaparecen hasta 3 veces.
 
-* Interfaz renovada y tipografia Segoe UI.
-* Avisos previos: caducan en 60 segundos y reaparecen hasta 3 veces.
-* Aviso de la hora exacta: no caduca y sustituye cualquier aviso previo de esa tarea.
-* Tareas vencidas sin atender: rojo y negrita.
-* Tareas realizadas: verde.
-* Boton Reprogramar: cambia solamente fecha y hora.
-* Iconos integrados correctamente en el EXE.
+\- Aviso de la hora exacta: no caduca y sustituye cualquier aviso previo de esa tarea.
+
+\- Tareas vencidas sin atender: rojo y negrita.
+
+\- Tareas realizadas: verde.
+
+\- Boton Reprogramar: cambia solamente fecha y hora.
+
+\- Iconos integrados correctamente en el EXE.
 
