@@ -1,8 +1,0 @@
-AVISADOR DE TAREAS v0.9.9.2
-- Añadido filtro visible «Filtrar por técnico».
-- «Todos» muestra todas las tareas.
-- Elegir un técnico muestra únicamente sus tareas en Pendientes e Histórico.
-- El filtro es únicamente visual: no altera tareas, asignaciones ni avisos.
-- El desplegable se actualiza automáticamente cuando cambia la lista compartida de técnicos.
-- Se incluyen sin modificar los nuevos banners editados por Carlos.
-- Mantiene calendario, modo oscuro, recarga de red cada minuto y técnicos compartidos.
